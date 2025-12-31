@@ -4,7 +4,7 @@
 
 -- Line Number Settings
 vim.opt.number = true
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
 
 -- Add end of line editing
 vim.opt.virtualedit = "onemore" -- cursor at end of line
