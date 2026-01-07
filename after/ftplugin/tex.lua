@@ -6,3 +6,6 @@ vim.opt_local.linebreak = true
 
 -- Preserve indentation when wrapping (optional but recommended)
 vim.opt_local.breakindent = true
+
+-- word count command
+vim.keymap.set("n", "<leader>cc", "<cmd>VimtexCountWords<cr>", { buffer = true, desc = "Count words" })
