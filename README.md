@@ -16,6 +16,7 @@ This configuration applies specific formatting rules for different languages.
 This configuration includes several custom plugins to enhance functionality.
 
 -   **[typst-preview.nvim](https://github.com/chomosuke/typst-preview.nvim)**: Adds a live preview for Typst files, available with the command `<leader>cp`.
+-   [**PDFview.nvim**](https://github.com/basola21/PDFview): Extracts the formatted text to view pdfs in loaded buffers. Requires `pdftotext`. 
 -   **[blink.cmp](https://github.com/saghen/blink.cmp)**: A cmp source with custom keymappings for completion.
 -   **[copilot.lua](https://github.com/zbirenbaum/copilot.lua)**: GitHub Copilot chat window integration for quick double checking (no code editing/generation).
 -   **[snacks.nvim](https://github.com/folke/snacks.nvim)**: A plugin for which picker is ignored.
