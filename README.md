@@ -20,6 +20,7 @@ This configuration includes several custom plugins to enhance functionality.
 -   **[blink.cmp](https://github.com/saghen/blink.cmp)**: A cmp source with custom keymappings for completion.
 -   **[copilot.lua](https://github.com/zbirenbaum/copilot.lua)**: GitHub Copilot chat window integration for quick double checking (no code editing/generation).
 -   **[snacks.nvim](https://github.com/folke/snacks.nvim)**: A plugin for which picker is ignored.
+-   [**triforce.nvim**](https://github.com/gisketch/triforce.nvim): Added xp/reward system to enable stats tracking. 
 
 ## LazyVim Defaults Changes
 
