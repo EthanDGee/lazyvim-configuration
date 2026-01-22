@@ -8,4 +8,5 @@ vim.opt_local.linebreak = true
 vim.opt_local.breakindent = true
 
 -- word count command
-vim.keymap.set("n", "<leader>cc", "<cmd>VimtexCountWords<cr>", { buffer = true, desc = "Count words" })
+vim.keymap.set("n", "<leader>cw", "<cmd>VimtexCountWords<cr>", { buffer = true, desc = "Word Count" })
+vim.keymap.set("n", "<leader>cc", "<cmd>VimtexCompile<cr>", { buffer = true, desc = "Toggle Compilation" })
