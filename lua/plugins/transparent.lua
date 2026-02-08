@@ -8,18 +8,22 @@ return {
   config = function(_, opts)
     require("transparent").setup(opts)
 
-    -- nukes anything starting with these names
     require("transparent").clear_prefix("BufferLine")
-    require("transparent").clear_prefix("lualine")
     require("transparent").clear_prefix("NeoTree")
+    require("transparent").clear_prefix("WhichKey")
   end,
 
   opts = {
     extra_groups = {
+      "Normal",
+      "NormalNC",
       "NormalFloat",
       "LazyNormal",
       "MasonNormal",
       "LazyGitNormal",
+      "WinBar",
+      "WinBarNC",
+      "WhichKeyNormal",
     },
   },
 }
