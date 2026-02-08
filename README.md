@@ -21,6 +21,7 @@ This configuration includes several custom plugins to enhance functionality.
 -   **[copilot.lua](https://github.com/zbirenbaum/copilot.lua)**: GitHub Copilot chat window integration for quick double checking (no code editing/generation).
 -   **[snacks.nvim](https://github.com/folke/snacks.nvim)**: A plugin for which picker is ignored.
 -   [**triforce.nvim**](https://github.com/gisketch/triforce.nvim): Added xp/reward system to enable stats tracking. 
+-   [transparent.nvim](https://github.com/xiyaowong/transparent.nvim): Converts neovim to be transparent and adds toggle.
 
 ## LazyVim Defaults Changes
 
