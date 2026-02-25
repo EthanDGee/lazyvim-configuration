@@ -4,7 +4,7 @@ return {
   config = function()
     require("triforce").setup({
       keymap = {
-        show_profile = "<leader>cx",
+        show_profile = "<leader>cX",
       },
 
       xp_rewards = {
