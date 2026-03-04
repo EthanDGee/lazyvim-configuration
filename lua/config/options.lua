@@ -9,3 +9,7 @@ vim.opt.relativenumber = true
 -- Add end of line editing
 vim.opt.virtualedit = "onemore" -- cursor at end of line
 vim.opt.whichwrap:append("<,>,[,],h,l") -- enable cursor to wrap around endings of lines
+
+-- enable spelling by default
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
