@@ -89,9 +89,10 @@ return {
           desc = "Code for 10,000 hours",
           icon = "",
           check = function(stats)
-            return stats.time_coding >= 10000
+            return stats.time_coding >= 10000*3600
           end,
         },
+
       },
     })
   end,
