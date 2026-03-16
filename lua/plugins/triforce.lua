@@ -15,9 +15,14 @@ return {
 
       -- much higher leveling requirements across the board
       level_progression = {
-        tier_1 = { min_level = 1, max_level = 10, xp_per_level = 1000 },
-        tier_2 = { min_level = 11, max_level = 20, xp_per_level = 5000 },
-        tier_3 = { min_level = 21, max_level = math.huge, xp_per_level = 10000 },
+        tier_1 = { min_level = 1, max_level = 9, xp_per_level = 1000 },
+        tier_2 = { min_level = 10, max_level = 19, xp_per_level = 5000 },
+        tier_3 = { min_level = 20, max_level = 49, xp_per_level = 10000 },
+        tier_4 = { min_level = 50, max_level = 99, xp_per_level = 25000 },
+        tier_5 = { min_level = 50, max_level = 75, xp_per_level = 50000 },
+        tier_6 = { min_level = 76, max_level = 99, xp_per_level = 75000 },
+        tier_7 = { min_level = 100, max_level = 149, xp_per_level = 100000 },
+        tier_8 = { min_level = 150, max_level = math.huge, xp_per_level = 150000 },
       },
 
       -- add more long term achievements
@@ -89,10 +94,9 @@ return {
           desc = "Code for 10,000 hours",
           icon = "",
           check = function(stats)
-            return stats.time_coding >= 10000*3600
+            return stats.time_coding >= 10000 * 3600
           end,
         },
-
       },
     })
   end,
