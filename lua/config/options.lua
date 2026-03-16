@@ -13,3 +13,10 @@ vim.opt.whichwrap:append("<,>,[,],h,l") -- enable cursor to wrap around endings 
 -- enable spelling by default
 vim.opt.spelllang = "en_us"
 vim.opt.spell = true
+
+-- Add a project-local spell file to the existing list of spell files
+local local_spell = vim.fn.getcwd() .. "/.spell.utf-8.add"
+local global_spell = vim.fn.stdpath("data") .. "/spell/en.utf-8.add"
+
+-- Set both: Global is index 1, Local is index 2
+vim.opt.spellfile = { global_spell, local_spell }
