@@ -1,15 +1,15 @@
 -- Navigate to the next page in the PDF
 vim.keymap.set(
   "n",
-  "<leader>cj",
+  "<leader>jj",
   "<cmd>:lua require('pdfview.renderer').next_page()<CR>",
-  { buffer = true, desc = "PDFview: Next page" }
+  { buffer = true, desc = " PDFview: Next page" }
 )
 
 -- Navigate to the previous page in the PDF
 vim.keymap.set(
   "n",
-  "<leader>ck",
+  "<leader>kk",
   "<cmd>:lua require('pdfview.renderer').previous_page()<CR>",
-  { buffer = true, desc = "PDFview: Previous page" }
+  { buffer = true, desc = " PDFview: Previous page" }
 )
