@@ -89,6 +89,16 @@ return {
 
         -- Hours
         {
+          id = "hours_1_000",
+          name = "Senior Developer",
+          desc = "Code for 1,000 hours",
+          icon = "🧓",
+          check = function(stats)
+            return stats.time_coding >= 10000 * 3600
+          end,
+        },
+
+        {
           id = "hours_10_000",
           name = "Gladwell Approved",
           desc = "Code for 10,000 hours",
