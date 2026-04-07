@@ -24,6 +24,14 @@ This configuration includes several custom plugins to enhance functionality.
 - [transparent.nvim](https://github.com/xiyaowong/transparent.nvim): Converts neovim to be transparent and adds toggle.
 - [exercism.nvim](https://github.com/2kabhishek/exercism.nvim): Adds local exercism practice problem handling to be within neovim (requires exercism CLI).
 
+## Theming
+
+The theming has diverged in a rather large way from the integration of [transparent.nvim](https://github.com/xiyaowong/transparent.nvim) to the additoon of many additonal themes to allow for easy switching to match various lighting/desktop background changes.
+
+Additionally the Dashboard header has been changed to reflect the Honky-Vim branding. It also includes a mother goos being followed by their flock as they walk across the header letters.
+
+Additionally to add more randomness and make the opening expereince more fun. I have implemented random "splash texts" that cover a variety of topics. Such as geese, racing, and programming humor.
+
 ## LazyVim Defaults Changes
 
 Some LazyVim default settings have been modified.
