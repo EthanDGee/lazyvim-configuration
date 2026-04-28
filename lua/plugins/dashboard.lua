@@ -10,11 +10,14 @@ BASE_HEADER = [[
 SPLASH_TEXT = {
   -- Honky Vim Themed
   [[                           Property of HexCorp                          ]],
+  [[                     Very Much Titled Neovim Config                     ]],
   [[   🇨🇦 🇨🇦 🇨🇦  Proudly Sponsored by Candian Geese Everywhere  🇨🇦 🇨🇦 🇨🇦    ]],
+  [[                    🇩🇪 🇩🇪 🇩🇪 "Gänsefüßchen" 🇩🇪 🇩🇪 🇩🇪                    ]],
   [[󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 ]],
   [[🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 ]],
   [[                                    (Get it "honky" like the "tonk")    ]],
   [[                                                 HONK HONK HONK HONK    ]],
+  [[                                              Very much on the loose    ]],
   -- Racing Related
   [[     DO DO DOO DOOO MAX VERSTAPPEN!  DO DO DOO DOOO MAX VERSTAPPEN!     ]],
   [[                                                VROOOM VROOOM VROOOM    ]],
