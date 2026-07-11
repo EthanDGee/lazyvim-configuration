@@ -5,11 +5,9 @@ LazyVim
 config
 TypeScript
 lua
-triforce
 exercism
 neovim
 Keymaps
-pangram
 namespace
 num
 timestamps
@@ -25,10 +23,6 @@ UI
 str
 timestamp
 datetime
-Q1
-Q2
-Q3
-Q4
 useState
 UML
 utils
@@ -70,7 +64,6 @@ SQLite
 2D
 RPG
 TUI
-BoardName
 todo
 toml
 LLMs
@@ -91,7 +84,6 @@ scalable
 scalability
 Architected
 shipmaster
-Dugal's
 lifecycle
 backend
 lazygit
@@ -119,3 +111,5 @@ donut
 unioned
 nullable
 urls
+popup
+upserts
