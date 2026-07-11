@@ -12,10 +12,12 @@ SPLASH_TEXT = {
   [[                           Property of HexCorp                          ]],
   [[                     Very Much Titled Neovim Config                     ]],
   [[   🇨🇦 🇨🇦 🇨🇦  Proudly Sponsored by Candian Geese Everywhere  🇨🇦 🇨🇦 🇨🇦    ]],
+  [[                 ✨  I just want to kiss my fish   ✨                 ]],
   [[                    🇩🇪 🇩🇪 🇩🇪 "Gänsefüßchen" 🇩🇪 🇩🇪 🇩🇪                    ]],
   [[󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 󰇥 ]],
   [[🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 🦆 ]],
-  [[                                    (Get it "honky" like the "tonk")    ]],
+  [[                       🪿      🐤      🐣      🥚                       ]],
+  [[                                  (Get it? "honky" like the "tonk"?)    ]],
   [[                                                 HONK HONK HONK HONK    ]],
   [[                                              Very much on the loose    ]],
   -- Racing Related
@@ -23,12 +25,13 @@ SPLASH_TEXT = {
   [[                                                VROOOM VROOOM VROOOM    ]],
   [[                                                   󰱧  󰱧  󰱧  󰱧  󰱧  󰱧     ]],
   -- Neovim Related
+  [[                       How do you exit this thing?                      ]],
   [[                                                     (by the way)       ]],
   [[                                                             (:wq)      ]],
   -- Language specific
-  -- [[                  󰌛           󰨊                     ]],
   [[                       Rewriting to use PostScript                      ]],
   [[                         Have you heard of Rust?                        ]],
+  -- Other
 }
 
 -- change the seed to ensure a random selection
