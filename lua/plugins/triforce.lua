@@ -3,10 +3,6 @@ return {
   dependencies = { "nvzone/volt" },
   config = function()
     require("triforce").setup({
-      keymap = {
-        show_profile = "<leader>cX",
-      },
-
       xp_rewards = {
         char = 0.25, -- Less character level reward
         line = 5, -- moderate reward for line count to promote readability
@@ -109,5 +105,14 @@ return {
         },
       },
     })
+
+    vim.keymap.set("n", "<leader>cx", require("triforce").show_profile, { desc = "Show Triforce Stats" })
+
+    local ok, wk = pcall(require, "which-key")
+    if ok then
+      wk.add({
+        { "<leader>cx", desc = "Show Triforce Stats", icon = "\u{eb03}" },
+      })
+    end
   end,
 }
