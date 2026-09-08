@@ -113,3 +113,16 @@ nullable
 urls
 popup
 upserts
+txt
+metadata
+turso
+UTCDate
+UTCTime
+desc
+sandboxed
+VARCHAR
+TableName
+sys
+IndexName
+IndexColumns
+IndexType
