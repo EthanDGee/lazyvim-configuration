@@ -12,7 +12,6 @@ This configuration includes several custom plugins to enhance functionality.
 - **[nvim-cmp](https://github.com/hrsh7th/nvim-cmp)**: Auto completion confirmation remapped from `<CR>` to `<Tab>`.
 - **[copilot.lua](https://github.com/zbirenbaum/copilot.lua)**: GitHub Copilot with inline suggestions disabled (chat window only, no code generation).
 - **[snacks.nvim](https://github.com/folke/snacks.nvim)**: Picker configured to show ignored files. Also drives the dashboard (see Theming).
-- [**triforce.nvim**](https://github.com/gisketch/triforce.nvim): Adds an xp/reward system for stats tracking, opened with `<leader>cX`. Tuned with custom xp rewards, higher leveling requirements, and extra long-term achievements.
 - [transparent.nvim](https://github.com/xiyaowong/transparent.nvim): Makes Neovim transparent with a toggle (`<leader>ut`). Extra highlight groups cleared for BufferLine, NeoTree, and WhichKey.
 - [exercism.nvim](https://github.com/2kabhishek/exercism.nvim): Local exercism practice problem handling within Neovim (requires the exercism CLI). Keymaps under `<leader>cx` — `a` languages, `l` list, `t` test, `r` submit.
 - [vimtex](https://github.com/lervag/vimtex): LaTeX support using `zathura` as the PDF viewer. Compile/view/error keymaps under `<leader>c` in TeX buffers.
